@@ -1,1 +1,2 @@
-*/5 * * * * /usr/bin/php /var/www/html/liamed/z_z.php   // every 5 minutes
+*/5 * * * * /usr/bin/php /var/www/html/x.php   // every 5 minutes
+0 * * * * wget --quiet sitetest.com/x.php   //every hour
