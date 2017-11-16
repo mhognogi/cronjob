@@ -1,2 +1,9 @@
 */5 * * * * /usr/bin/php /var/www/html/x.php   // every 5 minutes
 0 * * * * wget --quiet sitetest.com/x.php   //every hour
+
+#edit cron win
+connect putty
+crontab -e
+press the insert
+#exit cron and save
+esc and :wq
